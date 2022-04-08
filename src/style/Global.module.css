@@ -1,0 +1,67 @@
+.defCtnCtr, .nvCtr{
+    width: 100%;
+}
+
+.navPg{
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.nvCtr .dropdown .dropdown-menu{
+    background: transparent;
+    border: none;
+}
+.nvCtr a{
+    padding: 15px!important;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+}
+
+.nvCtr a span{
+    transition: all .3s ease;
+}
+
+.nvCtr a:hover, .nvCtr a:active, .nvCtr a:focus{
+    color: #2196F3;
+    background: #e9f0f7;
+} 
+.nvCtr a:hover span, .nvCtr a:active span, .nvCtr a:focus span{
+    color: #2196F3;
+    padding-left: 10px;
+    border-left: 3px solid #2196F3;
+    transition: all .3s ease;
+}
+
+.nvCtr  .dropdown-item{
+    border: none;
+    border-radius: none!important;
+    padding-left: 15px;
+    margin: 0;
+    background: none;
+}
+
+.sbMn{
+    background: transparent;
+    border: none;
+}
+
+
+.HdrCtn{
+    padding : 10px;
+}
+
+.HeaderContent{
+padding: 15px 0
+}
+
+
+.modalRight.show .modal-dialog{
+    max-width: 800px;
+    position: absolute;
+    margin: 0;
+    min-width: 60%;
+}

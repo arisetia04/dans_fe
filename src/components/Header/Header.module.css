@@ -1,0 +1,111 @@
+._TtlLoc{
+    margin: 0 15px;
+}
+
+.dl_lFCtr{
+    width: 300px;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 2px 0px 8px rgb(120 127 162 / 26%);
+    height: 100%;
+    top: 57px;
+}
+
+
+
+._logo{
+    width: 170px;
+}
+
+._hdr_Ntv{
+    position: fixed;
+    z-index: 9999;
+    transition: all .5s ease;
+    background: aliceblue;
+    height: 100vh;
+    padding: 20px;
+    width: 600px;
+}
+
+._Prtq_navbar{
+    padding: 1rem;
+    margin-bottom: 3rem;
+    position: fixed!important;
+    height: 57px!important;
+    width: 100%;
+    z-index: 999!important;
+    box-shadow: 0 8px 8px rgb(4 24 134 / 38%)!important;
+}
+
+.dl_lFCtr ._tp{
+    padding: 15px;
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+.dl_lFCtr ._tp span{
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.dl_lFCtr ._i{
+    border-bottom: 1px solid #ececec;
+}
+
+.dl_lFCtr ._i a{
+    display: inline-flex;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    width: 100%;
+}
+
+.dl_lFCtr ._i a span{
+    margin-left: 20px;
+}
+
+._tgMn{
+    cursor: pointer;
+}
+
+
+._dk a{
+    color: #7d7c7c;
+}
+
+.dl_lFCtr a:hover{
+    background: #f3f3f3;
+    text-decoration: none;
+}
+
+
+.trnsprnBtn{
+        background-color: transparent!important;
+    border-color: transparent!important;
+    margin: 0 10px;
+
+}
+
+
+
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 600px) {
+  .dl_lFCtr ._i a{
+        padding: 14px 20px;
+    }
+
+    ._hdr_Ntv{
+        width: 85%;
+    }
+
+    ._logo{
+        width: 120px;
+    }
+
+   
+
+}
